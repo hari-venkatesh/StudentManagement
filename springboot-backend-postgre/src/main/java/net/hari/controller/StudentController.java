@@ -20,7 +20,7 @@ import net.hari.exception.CustomExp;
 import net.hari.model.Student;
 import net.hari.repo.StudentRepo;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
 public class StudentController {
